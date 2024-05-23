@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/primcars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="primcars"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-64dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="menu"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-90dp"
+        android:background="@drawable/logoputih" />
+
+    <Button
+        android:id="@+id/btn_Booking"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="BOOKING"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_Antrian"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="ANTRIAN" />
+
+    <Button
+        android:id="@+id/btn_Informasi"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="INFORMASI" />
+
+</RelativeLayout>

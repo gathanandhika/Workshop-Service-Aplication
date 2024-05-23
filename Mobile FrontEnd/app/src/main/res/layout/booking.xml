@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".BookingActivity">
+
+    <TextView
+        android:id="@+id/Form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="680dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="FORM"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/Booking2"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="650dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="Booking"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/Logo2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/logoputih" />
+
+    <TextView
+        android:id="@+id/jenis_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Jenis Kendaraan"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/jenis_kendaraan_edit"
+        android:layout_width="360dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="165dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="12dp" />
+
+    <TextView
+        android:id="@+id/nomor_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nomor Kendaraan"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/nomor_kendaraan_edit"
+        android:layout_width="360dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="255dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="12dp" />
+
+    <TextView
+        android:id="@+id/keperluan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Keperluan"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/keperluan_edit"
+        android:layout_width="360dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="345dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="12dp" />
+
+    <Button
+        android:id="@+id/btn_datepicker"
+        android:layout_width="212dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="sans-serif-black"
+        android:text="tanggal reservasi"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <Button
+        android:id="@+id/btn_booking"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="565dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="sans-serif-black"
+        android:text="Booking"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>

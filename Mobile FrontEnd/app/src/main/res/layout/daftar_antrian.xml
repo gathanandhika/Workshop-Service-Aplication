@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".AntrianActivity">
+
+    <TextView
+        android:id="@+id/nomorid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="680dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="nomor"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/antrianid"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="650dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="Antrian"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/Logo2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/logoputih" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/kotak" />
+
+    <TextView
+        android:id="@+id/nomorantrian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nomor Antrian Anda"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="188dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/akira_expanded_demo"
+        android:text="69"
+        android:textColor="#000000"
+        android:textSize="110dp" />
+
+    <TextView
+        android:id="@+id/terimakasih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="555dp"
+        android:fontFamily="sans-serif"
+        android:text="terimakasih sudah memakai"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/jasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="580dp"
+        android:fontFamily="sans-serif"
+        android:text="jasa kami"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</RelativeLayout>
