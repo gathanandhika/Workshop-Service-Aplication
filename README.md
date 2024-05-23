@@ -13,6 +13,36 @@ This README document provides an overview of the Workshop Service Application de
 - Android Studio: The frontend of the application is built using Android Studio, the official integrated development environment (IDE) for Android app development. Android Studio provides tools for designing user interfaces, writing code, and testing applications on various Android devices.
 - MySQL: The application's data is stored and managed using MySQL, a popular open-source relational database management system. MySQL offers reliability, performance, and ease of use for handling large datasets.
 
+## Installation Instructions
+To set up the Immunization Application on your local environment, follow these steps:
+1. Clone Repository
+   ```
+   git clone <repository-url>
+   ```
+2. Backend Setup:
+   - Navigate to the backend directory (cd backend) and install dependencies using Composer:
+     ```
+     composer install
+     ```
+   - Rename the .env.example file to .env and configure your database connection details.
+   - Generate a new application key
+     ```
+     php artisan key:generate
+     ```
+   - Run database migrations to create the necessary tables:
+     ```
+     php artisan migrate
+     ```
+3. Frontend Setup:
+   - Open the Android project in Android Studio located in the frontend directory.
+   - Configure the necessary API endpoints to communicate with the backend.
+4. Run the Application:
+   - Start the Laravel development server:
+     ```
+     php artisan serve
+     ```
+   - Run the Android application on an emulator or physical device from Android Studio.
+
 ## Contact
 For any inquiries or support regarding the Workshop Service Application, please contact our team at gathanafrr@gmail.com.
 
